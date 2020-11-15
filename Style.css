@@ -94,3 +94,43 @@ margin-right: 300px;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  .imag {
+    position:relative;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .image img{vertical-align:middle;}
+  .image .texts{
+    position: absolute;
+    bottom: 0px;
+    top: 250px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 150;
+    overflow: hidden;
+  background-color: #111;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: gray;
+  }
+  li a{
+    font-weight: bold;
+    font-size: 20px;
+
+  }
