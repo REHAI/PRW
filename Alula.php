@@ -13,7 +13,7 @@
      height="80" width="100">
 
     <ul>
-      <li><a class="active" href="Alula.html">الرئيسية</a></li>
+      <li><a class="active" href="Alula.php">الرئيسية</a></li>
         <li><a href="Home.html">أكتشف العلا </a></li>
       <li><a href="events.html">الفعاليات والأنشطة </a></li>
       <li><a href="tourism.html">السياحة</a></li>
