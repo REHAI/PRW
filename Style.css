@@ -5,26 +5,6 @@
 .header:hover {
 background-color: white;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 15px;
-  overflow: hidden;
-  background-color: gray;
-}
-li {
-  float: right;
-}
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #111;
-}
 div.gallery {
   margin: 25px;
   border: 3px solid #777 ;
@@ -45,66 +25,13 @@ div.desc {
   font-weight: bold;
   font-style:italic;
   color: black;
-}.image img{vertical-align: middle;}
-.rectangle{
-  background-color: AliceBlue;
-  border-radius: 30px;
-  width: 800px;
-  height: 150PX;
-}
-h2{
-font-size: 70px;
-font-family: 'Amiri';
-text-shadow: 2px 2px 4px #000000;
-margin-right: 200px;
-margin-bottom: 200px;
-}
-p{
-  font-size: 50px;
-font-family:'Droid Arabic Kufi';
-text-shadow: 2px 2px 4px #000000;
-font-weight: bolder;
-  margin-right: 100px;
-  margin-bottom: 200px;
-}
-.header{
-  position:relative;
-}
-.image {
-  position: relative;
-  max-width: 100%;
-  margin: 0 auto;
-}
-.image img{vertical-align: middle;}
-.image .image{
-  position:absolute;
-  bottom: 0;
-  color: white;
-  padding: 50px;
-margin-right: 250px;
-}
-.Video{
-  position:absolute;
-  bottom:0;
-margin-right: 300px;
-  margin-bottom: 240px;
-}  body {
+} body {
     background-image: url("white.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  .imag {
-    position:relative;
-    max-width: 1300px;
-    margin: 0 auto;
-  }
-  .image img{vertical-align:middle;}
-  .image .texts{
-    position: absolute;
-    bottom: 0px;
-    top: 250px;
-  }
+  
 
   ul {
     list-style-type: none;
