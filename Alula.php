@@ -127,7 +127,7 @@
     <a class="vlink" href="https://youtu.be/KEVZ7K2Qrs0">  مناطيد العلا </a>
     <a class="vlink" href="https://youtu.be/IgUB-PnE5C4"><br>حفل كارول سماحة</a>
     <a class="vlink" href="https://youtu.be/g3YbFn2ziqs"><br><br>الموسيقار عمر خيرت</a>
-
+<footer class="site-footer"></footer>
 
     </p>
       </body>

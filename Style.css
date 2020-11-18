@@ -231,9 +231,13 @@ div.desc {
   font-weight: bold;
   font-style:italic;
   color: black;
-}body {
-    background-image: url("white.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+}
+  .site-footer {
+   clear:both;
+   width:100%;
+   position:absolute;
+   bottom:0;
+   height:100px;
+   background: gray;
+   right: 0;
   }
