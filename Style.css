@@ -187,7 +187,7 @@ list-style-type: none;
 margin: 0;
 padding: 15px;
 overflow: hidden;
-background-color: #111;
+background-color: silver;
 }
 
 li {
@@ -231,7 +231,10 @@ div.desc {
   font-weight: bold;
   font-style:italic;
   color: black;
-}
+}body {
+    background-image: url("white.jpeg");
+    margin: 0;
+  }
   .site-footer {
    clear:both;
    width:100%;

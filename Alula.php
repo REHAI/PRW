@@ -12,7 +12,7 @@
         height="80" width="100">
 
         <ul>
-              <li><a class="active" href="Alula.html">الرئيسية</a></li>
+              <li><a class="active" href="Alula.php">الرئيسية</a></li>
                 <li><a href="Home.html">أكتشف العلا </a></li>
               <li><a href="events.html">الفعاليات والأنشطة </a></li>
               <li><a href="tourism.html">السياحة</a></li>
@@ -84,11 +84,8 @@
     <p><img src="cxx.png" alt=" الحفلات" height="200" width="500" style=" position: absolute; top:3900px; right:650px">
       <img src="ll.jpg" alt=" الحفلات" height="200" width="500" style=" position: absolute; top:4100px;right:650px"></p>
     <p class="Parties"> الحفلات والأنشطة </p>
-
     <p class="footer"></p>
-
     <?php
-    // define variables and set to empty values
      $emailErr = "";
      $email = "";
 
