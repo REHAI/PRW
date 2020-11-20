@@ -64,6 +64,7 @@ div.desc {
   .navbar a:hover {
     background-color: #ddd;
     color: black;
+        border-radius: 5px;
   }
 
 
