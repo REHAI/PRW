@@ -5,7 +5,7 @@
 <title>Page Title</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="new.css">
+  <link rel="stylesheet" href="Style.css">
 </head>
 <body>
 
@@ -34,7 +34,7 @@
         <a href="Videoalula.mp4">
           <img src="videoicon.png" alt="video"
             height="80" width="80" > </a>
-          </div>  </div> 
+          </div>  </div>
 
 <br><br><br><br><br><br><br><br><br><br>
 
