@@ -225,3 +225,36 @@ div.desc {
       flex-direction: column;
     }
   }
+  /* home style*/
+  .nmm{
+    color: gray ;
+  }
+  .rectangle1{
+    background-color: white;
+    border-radius: 30px;
+    width: 800px;
+  }
+  table {
+    font family: arial, sons-serif;
+    border-collapse : separate;
+    font-weight : blod ;
+    width :100%;
+  }
+  td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* tourism style */
+.nm{
+  color: white ;
+}
+.rectangle{
+  background-color: rgb(201, 76, 76, 0.3);
+  border-radius: 100px;
+  width: 400px;
+}
