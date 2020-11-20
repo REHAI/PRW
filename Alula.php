@@ -18,7 +18,7 @@
 
 <!-- Navigation Bar -->
 <div class="navbar">
-  <a href="Alula.html">الرئيسية</a>
+  <a href="Alula.php">الرئيسية</a>
   <a href="Home.html">أكتشف العلا</a>
   <a href="events.html">الفعاليات والأنشطة </a>
   <a href="tourism.html">السياحة</a>
