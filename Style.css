@@ -47,8 +47,7 @@ div.desc {
 /* navbar*/
 #navbar{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items:center;
   padding: 1rem;
   position: sticky;
   top: 0;
