@@ -24,6 +24,8 @@ VALUES ('$email')";
 
 if (mysqli_query($conn, $sql)) {
 echo "تم الأشتراك";
+header("Location: Alula.php");
+  die();
 } else {
 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
