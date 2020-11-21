@@ -98,21 +98,26 @@
   <img src="ll.jpg" alt=" الحفلات" height="200" width="500" style=" position: absolute; top:4500px;right:650px">
 <p class="Parties"> الحفلات والأنشطة </p></div>
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br>
 
 <!-- Footer -->
 <div class="footer">
   <div class="llnker">
     <img src="2030.png" alt="Vision 2020" width="100" height="100" style=" position:absolute; right:1100px">
-    <h3 style="color:gold;font-weight:bold;font-size:25px;text-shadow: 2px 2px 4px #000000;">الروابط السريعة</h3>
+    <h3 style="color:#FFCC00;font-weight:bold;font-size:25px;text-shadow: 2px 2px 2px #000000;">الروابط السريعة</h3>
     <a   href="https://youtu.be/KEVZ7K2Qrs0"> مناطيد العلا</a>
     <a   href="https://youtu.be/IgUB-PnE5C4"><br>حفل كارول سماحة</a>
-    <a   href="https://youtu.be/g3YbFn2ziqs"><br>الموسيقار عمر خيرت </a>
+    <a   href="https://youtu.be/g3YbFn2ziqs"><br>الموسيقار عمر خيرت </a></div>
 
+<div class="Subscribe">
+    <h3 style="color:#FFCC00;font-weight:bold;font-size:25px;text-shadow: 2px 2px 2px  #000000;" > تواصل معنا</h3>
+    <h5>اشترك للحصول على أحدث أخبار العلا من العروض والفعاليات</h5>
+    <form action="final.php" method="post">
+    <input  class="Subs"   type="email" name="uremail"  placeholder="البريد الإلكتروني" required>
+    <input class="submit" type="submit" value="اشترك"><br>
 </div>
 </div>
 </body>

@@ -1,5 +1,4 @@
 
-
 div.gallery {
   margin: 25px;
   border: 3px solid #777 ;
@@ -196,7 +195,33 @@ div.desc {
 
   }
 
-
+  .Subscribe{
+  position: absolute;
+  right: 350px;
+  top: 0px;
+  font-size: 22px;
+  font-family:'Noto Kufi Arabic';
+  }
+  .Subs{
+    position: absolute;
+  width: 250px;
+  height: 45px;
+    border: 2px solid black;
+    font-size: 10px;
+    font-family:'Noto Kufi Arabic';
+    display: flex;
+  }
+  .submit{
+    border: 2px solid black;
+    background-color:#ddd;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic';
+    color: white;
+    position: absolute;
+  width: 150px;
+  height: 45px;
+  left: 100px;
+  }
   .image img{vertical-align:middle;}
   .image .text{
     position: absolute;
