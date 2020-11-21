@@ -12,18 +12,17 @@
 
 
 <!-- Header -->
-<div class="header">
- <img src="alu.png" alt="Alula"
-     height="100" width="150">
-</div>
-
-<!-- Navigation Bar -->
-<div class="navbar">
-  <a href="Alula.php">الرئيسية</a>
-  <a href="Home.html">أكتشف العلا</a>
-  <a href="events.html">الفعاليات والأنشطة </a>
-  <a href="tourism.html">السياحة</a>
-</div>
+<nav id="navbar" class="bg-dark">
+  <div class="logo">
+    <img src="alu.png" alt="Alula">
+  </div>
+  <ul>
+    <li><a href="Alula.php">الرئيسية</a></li>
+      <li><a href="Home.html">أكتشف العلا</a></li>
+        <li><a href="events.html">الفعاليات والأنشطة </a></li>
+          <li><a href="tourism.html">السياحة</a></li>
+  </ul>
+</nav>
 
 
 
