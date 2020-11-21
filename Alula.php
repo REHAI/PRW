@@ -9,8 +9,6 @@
   <link rel = "icon" href ="2icon.jpg" type = "image/x-icon">
 </head>
 <body>
-
-
 <!-- Header -->
 <nav id="navbar" class="bg-dark">
   <div class="logo">
@@ -23,9 +21,6 @@
           <li><a href="tourism.html">السياحة</a></li>
   </ul>
 </nav>
-
-
-
 <div class="image">
   <img src="oll.jpg" alt="Alula" height="500" width="100%">
 
