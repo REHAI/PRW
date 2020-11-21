@@ -219,12 +219,6 @@ div.desc {
   padding-right:150px;
   text-align: right;
   }
-
-  @media (max-width: 700px) {
-   .navbar {
-      flex-direction: column;
-    }
-  }
   /* home style*/
   .nmm{
     color: gray ;
@@ -257,4 +251,14 @@ tr:nth-child(even) {
   background-color: rgb(201, 76, 76, 0.3);
   border-radius: 100px;
   width: 400px;
+}
+@media screen and (max-width: 700px) {
+.navbar {flex-direction: column;}
+.rectangle {align-items: center;}
+.nm {align-items: center;}
+.rectangle1 {
+    align-items: center;
+    border-radius: 20px;
+    width: 400px;}
+.nmm {align-items: center;}
 }
