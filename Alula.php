@@ -27,7 +27,7 @@
 
 
 <div class="image">
-  <img src="oll.jpg" alt="Alula" height="500" width="1260">
+  <img src="oll.jpg" alt="Alula" height="500" width="100%">
   <div class="text">
       <div class="p">   مـاهـي الـعُـلا ؟<br><br>
                          شاهد الفيديو
