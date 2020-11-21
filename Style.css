@@ -277,10 +277,12 @@ tr:nth-child(even) {
   border-radius: 100px;
   width: 400px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
 .navbar {flex-direction: column;}
 .rectangle {align-items: center;}
 .nm {align-items: center;}
+}
+@media screen and (max-width: 850px) {
 .rectangle1 {
     align-items: center;
     border-radius: 20px;
