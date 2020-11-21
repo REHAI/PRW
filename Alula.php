@@ -28,13 +28,14 @@
 
 <div class="image">
   <img src="oll.jpg" alt="Alula" height="500" width="100%">
+
   <div class="text">
       <div class="p">   مـاهـي الـعُـلا ؟<br><br>
                          شاهد الفيديو
         <a href="Videoalula.mp4">
           <img src="videoicon.png" alt="video"
             height="80" width="80" > </a>
-          </div>  </div>
+          </div> </div>
 
 <br><br><br><br><br><br><br><br><br><br>
 
