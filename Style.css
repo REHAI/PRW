@@ -218,7 +218,8 @@ div.desc {
     position: absolute;
   width: 150px;
   height: 45px;
-  left: 100px;
+  left: 0;
+  
   }
   .image img{vertical-align:middle;}
   .image .text{
