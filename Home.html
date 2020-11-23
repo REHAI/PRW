@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="Style.css">
+      <script src="begin.js"></script>
     <title>اكتشف العُلا</title>
   <style>
   body {
@@ -68,6 +69,34 @@
     <td> الدولة العثمانية  </td>
   </tr>
   </table>
+  <center><style type="text/css">
+  #pscroller1{
+  font-size: 14px;
+  font-family: Tahoma;
+  width: 800px;
+  height: 500px;
+  border: 0px solid black;
+  padding: 5px;
+  background-color: white;
+  }
 
-</body>
-</html>
+  </style>
+
+
+  <script src="array.js"></script>
+
+  <script src="pausing.js"></script>
+
+  <script type="text/javascript">
+
+  //new pausescroller(name_of_message_array, CSS_ID, CSS_classname, pause_in_miliseconds)
+
+  new pausescroller(pausecontent, "pscroller1", "someclass", 3000)
+  document.write("<br />")
+
+  </script>
+  </center>
+
+  </body>
+  </html>
+  <script language=javascript> window.alert('مرحبا بكم في اكتشاف العُلا '); </script>
