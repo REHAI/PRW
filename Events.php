@@ -14,9 +14,9 @@
     </div>
     <ul>
       <li><a href="Alula.php">الرئيسية</a></li>
-        <li><a href="Home.html">أكتشف العلا</a></li>
-          <li><a href="events.html">الفعاليات والأنشطة </a></li>
-            <li><a href="tourism.html">السياحة</a></li>
+        <li><a href="Home.php">أكتشف العلا</a></li>
+          <li><a href="events.php">الفعاليات والأنشطة </a></li>
+            <li><a href="tourism.php">السياحة</a></li>
     </ul>
   </nav>
     <img src="eevs.jpeg" alt="even" height="atuo" width=100%>
