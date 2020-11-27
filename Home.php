@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+  <html lang="ar" dir="rtl">
+  <head>
+    <script src="begin.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style.css">
+
+    <title>اكتشف العُلا</title>
+  <style>
+  body {
+    background-image: url("athr.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+</style>
+<link rel = "icon" href ="2icon.jpg" type = "image/x-icon">
+</head>
+<body>
+  <nav id="navbar" class="bg-dark">
+    <div class="logo">
+      <img src="alu.png" alt="Alula">
+    </div>
+    <ul>
+      <li><a href="Alula.php">الرئيسية</a></li>
+        <li><a href="Home.html">أكتشف العلا</a></li>
+          <li><a href="events.html">الفعاليات والأنشطة </a></li>
+            <li><a href="tourism.html">السياحة</a></li>
+    </ul>
+  </nav>
+<div  ALIGN="CENTER" >
+  <div class="rectangle1">
+  <h1 class="nmm" > هنا العلا ... حاضنة للجمال الطبيعي والتراث الإنساني الفريد </h1>
+  <h4 class="nmm"> ندعوك لزيارة هذا المتحف النابض بالحياة منذ آلاف السنين <br>  والذي يقوم على كوكبة من العجائب الطبيعية والبشرية التي تنتشر عبر أرجائه <br> والسفر في رحلة عبر الزمن للتعرف على المواقع التاريخية التي حُفظت على مرّ القرون <br>  والاستمتاع بمشاهدة تشكيلات الصخور الرملية والمساكن القديمة والمعالم الأثرية التي نحتتها يد الطبيعة وصنعتها إرادة الإنسان </h4>
+  </div><br>
+  <div  ALIGN="CENTER" >
+    <div class="rectangle1">
+    <h1 class="nmm" > العُلا </h1>
+    <h4 class="nmm"> العلا إحدى مدن المملكة العربية السعودية، تقع غرب الجزيرة العربية <br> تقع مدينة العلا بين مرتفعات جبلية تحدها من الشرق والغرب حيث يمتد منها جهة الجنوب <br>وترتبط العلا بالمدن المحيطة بها بطرق زراعية فتبعد عن المدينة المنورة تقريباً 300 كم <br>( تبلغ مساحة محافظة العلا (29261 كم</h4>
+    </div>
+<br>
+  <h2> تسلسل الأحداث التاريخية التي مرت بها محافظة العُلا </h2>
+  <table>
+  <tr>
+    <th> (الأدلة (الأحداث </th>
+    <th> الحقبة التاريخية </th>
+  </tr>
+  <tr>
+    <td> النقوش والمقابر والأدلة الموجودة في مدائن صالح</td>
+    <td> العصر البرونزي </td>
+  </tr>
+  <tr>
+    <td> نقوش واعمدة جبل عكمة</td>
+    <td> مملكة دادان </td>
+  </tr>
+  <tr>
+    <td> ( تميزها واجهات مقابرها المنحوتة بطريقة باهره ومذهلة ومنها (الديوان، قصر البنت، قصر الفريد </td>
+    <td>مملكة الأنباط </td>
+  </tr>
+  <tr>
+    <td>توجد قلاعها وحصونها في الحجر </td>
+    <td>الامبراطورية الرومانية  </td>
+  </tr>
+  <tr>
+    <td>توجد قلاعها وحصونها في الحجر </td>
+    <td>العصر الاسلامي </td>
+  </tr>
+  <tr>
+    <td>بناء سكة حديد الحجاز لتنقل الحجاج</td>
+    <td> الدولة العثمانية  </td>
+  </tr>
+  </table>
+  <center><style type="text/css">
+  #pscroller1{
+  font-size: 14px;
+  font-family: Tahoma;
+  width: 800px;
+  height: 500px;
+  border: 0px solid black;
+  padding: 5px;
+  background-color: white;
+  }
+
+  </style>
+
+
+  <script src="array.js"></script>
+
+  <script src="pausing.js"></script>
+
+  <script type="text/javascript">
+
+  //new pausescroller(name_of_message_array, CSS_ID, CSS_classname, pause_in_miliseconds)
+
+  new pausescroller(pausecontent, "pscroller1", "someclass", 3000)
+  document.write("<br />")
+
+  </script>
+  </center>
+
+  </body>
+  </html>
+  <script language=javascript> window.alert('مرحبا بكم في اكتشاف العُلا '); </script>
