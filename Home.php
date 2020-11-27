@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
   <html lang="ar" dir="rtl">
   <head>
@@ -23,9 +22,9 @@
     </div>
     <ul>
       <li><a href="Alula.php">الرئيسية</a></li>
-        <li><a href="Home.html">أكتشف العلا</a></li>
-          <li><a href="events.html">الفعاليات والأنشطة </a></li>
-            <li><a href="tourism.html">السياحة</a></li>
+        <li><a href="Home.php">أكتشف العلا</a></li>
+          <li><a href="events.php">الفعاليات والأنشطة </a></li>
+            <li><a href="tourism.php">السياحة</a></li>
     </ul>
   </nav>
 <div  ALIGN="CENTER" >
@@ -89,6 +88,7 @@
   <script src="pausing.js"></script>
 
   <script type="text/javascript">
+
 
   new pausescroller(pausecontent, "pscroller1", "someclass", 3000)
   document.write("<br />")
