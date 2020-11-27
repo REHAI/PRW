@@ -1,9 +1,5 @@
-
-
-/*Example message arrays for the two demo scrollers*/
-
 var pausecontent=new Array()
-pausecontent[0]='<img border="0" src="brz.jpg">'
+pausecontent[0]='<img border="0" src="">'
 pausecontent[1]='<img border="0" src="bla.jpg">'
 pausecontent[2]='<img border="0" src="md.jpg">'
 pausecontent[3]='<img border="0" src="gr.jpg">'

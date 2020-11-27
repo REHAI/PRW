@@ -90,8 +90,6 @@
 
   <script type="text/javascript">
 
-  //new pausescroller(name_of_message_array, CSS_ID, CSS_classname, pause_in_miliseconds)
-
   new pausescroller(pausecontent, "pscroller1", "someclass", 3000)
   document.write("<br />")
 
