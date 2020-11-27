@@ -2,15 +2,15 @@
 div.gallery {
   margin: 25px;
   border: 3px solid #777 ;
-  width: 28%;
-  background-color: white;
   float: left;
+  width: 200px;
+  background-color: white;
 }
 div.gallery:hover {
   border: 3px solid #777;
 }
 div.gallery img {
-  width: 100%;
+  width: 196px;
   height: 196px;
 }
 div.desc {
@@ -19,10 +19,7 @@ div.desc {
   font-weight: bold;
   font-style:italic;
   color: black;
-width: 100%;
-}
-
-body {
+}body {
     background-image: url("white.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -74,29 +71,17 @@ body {
   text-align:left;
     padding: 20px;
     padding-left: 0px;
-    width: 100%;
-
-  }
-
-  .img img{
-    width: 58%;
-
-  }
-
-  .img .p2{
-    width: 40%;
-    float: right;
-    font-size: 30px;
-    color: #330000;
 
   }
 
   .TitleoldAlula {
     text-align: right;
-     width: 40%;
+    position: absolute;
+  top: 700px;
+     width: 510px;
+     height: 450px;
      border: 1px solid tan;
     padding: 20px;
-    float: right;
 
   }
 
@@ -128,87 +113,65 @@ body {
   }
 
   .TitleMountIkma {
-     width: 40%;
+    position: absolute;
+     top: 1780px;
+     width: 510px;
+     height: 450px;
      border: 1px solid tan;
     padding: 20px;
       text-align:right;
-      float: right;
   }
   .TitleDiwan{
-     width: 40%;
+    position: absolute;
+     top: 2820px;
+     width: 510px;
+     height: 450px;
      border: 1px solid tan;
     padding: 20px;
-    text-align:right;
-    float: right;
-
+      text-align:right;
   }
-
-  .div_down {
-    width: 100%;
-  }
-
-
-  .div_down img{
-    width: 100%;
-    height: 200px;
-  }
-
-  .div_down div{
-    width: 33%;
-    position: relative;
-    float: left;
-  }
-
-
-
-
   .ExploreAlula{
-    position:absolute;
-    top: 100px;
-    right: 25px;
+      position:absolute;
     text-align:center;
     border: 1px solid tan ;
+    right: 100px;
+    margin-top:345px;
+      margin-right:330px;
+    width: 300px;
+     height: 70px;
     font-size: 30px;
     font-family: 'Noto Kufi Arabic';
-    color: white;
-    background-color: #321e13;
-    width: max-content;
-    padding:6px;
-
+    color: white
   }
   .tourism{
   position:absolute;
-  top: 100px;
-  right: 25px;
+  top:4615px;
   border: 1px solid tan ;
+  right: 150px;
+  height: 70px;
+  width: 300px;
+  padding-left: 100px;
   font-size: 30px;
   font-family: 'Noto Kufi Arabic';
   color: white;
-  background-color: #321e13;
-  width: max-content;
-  padding:6px;
-
-
   }
   .Parties{
     position:absolute;
-    top: 100px;
-    right: 25px;
+    top:4615px;
     border: 1px solid tan ;
+    right: 720px;
+    height: 70px;
+    width: 300px;
+    padding-left:20px;
     font-size: 30px;
     font-family: 'Noto Kufi Arabic';
     color: white;
-    background-color: #321e13;
-    width: max-content;
-    padding:6px;
-
   }
   .llnker{
     text-align:right;
   padding-right: 20px;
   font-size: 22px;
   font-family:'Noto Kufi Arabic';
-  width: 30%;
 
 
   }
@@ -231,20 +194,12 @@ body {
   }
 
   .Subscribe{
-    width: 50%;
   position: absolute;
   right: 350px;
   top: 0px;
   font-size: 22px;
   font-family:'Noto Kufi Arabic';
   }
-
-
-  .logo_footer {position: relative;;width: 10%; float: left; margin: 10px;}
-
-  .logo_footer img { position: absolute;bottom: 82px;}
-
-
   .Subs{
     position: absolute;
   width: 250px;
@@ -270,7 +225,7 @@ body {
   .image .text{
     position: absolute;
     bottom: 0px;
-    top: 160px;
+    top: 280px;
     margin: 0 auto;
   }
   .image {
@@ -298,7 +253,7 @@ body {
     width: 800px;
   }
   table {
-    font-family: arial, sons-serif;
+    font family: arial, sons-serif;
     border-collapse : separate;
     font-weight : blod ;
     width :100%;
@@ -321,154 +276,19 @@ tr:nth-child(even) {
   border-radius: 100px;
   width: 400px;
 }
-
-
-/* ===============   @media   ====================== */
-
-@media (min-width: 320px) and (max-width: 600px) {
-    .navbar {flex-direction: column;}
-    .rectangle {align-items: center;}
-    .nm {align-items: center;}
-
-    .image .text{
-      top: 90px;
-    }
-
-
-    .p{
-      font-size: 20px;
-    }
-
-    .div_down {clear: both;}
-
-    .div_down img{
-      width: 100%;
-      height: 300px;
-    }
-
-    .div_down div{
-      width: 100%;
-      position: relative;
-      margin-bottom: 10px;
-    }
-
-    .TitleoldAlula, .TitleMountIkma, .TitleDiwan, .img img {width: 100%;margin-bottom: 10px}
-
-    .img .p2 {width: 100%; text-align: center;}
-
-
-    .Subscribe {position: unset;}
-    .llnker, .Subscribe {width: 100%; margin: 20px;}
-
-
-    .logo_footer img {bottom: 280px;}
-
-    .footer {height: unset;}
-
-
-
-
-    /* Events Page */
-
-    div.gallery {width: 100%; margin: 0 auto; margin-bottom: 30px; padding: 10px;}
-
-    div.gallery img {
-      height: 300px;
-    }
+@media screen and (max-width: 600px) {
+.navbar {flex-direction: column;}
+.rectangle {align-items: center;}
+.nm {align-items: center;}
+}
+@media screen and (max-width: 850px) {
+.rectangle1 {
+    align-items: center;
+    border-radius: 20px;
+    width: 400px;}
+.nmm {align-items: center;}
 }
 
-
-
-@media (min-width: 601px) and (max-width: 850px) {
-    .rectangle1 {
-      align-items: center;
-      border-radius: 20px;
-      width: 400px;}
-  .nmm {align-items: center;}
-
-
-
-  .image .text{
-    top: 100px;
+@media screen {
+    body { font-size: 15px }
   }
-
-
-  .p{
-    font-size: 40px;
-  }
-
-  .div_down {clear: both;}
-
-
-  .div_down img{
-    height: 300px;
-  }
-
-  .div_down div{
-    width: 100%;
-    position: relative;
-    margin-bottom: 10px;
-  }
-
-
-  .TitleoldAlula, .TitleMountIkma, .TitleDiwan, .img img {width: 100%;margin-bottom: 10px}
-
-  .img .p2 {width: 100%; text-align: center;}
-
-
-  .Subscribe {position: unset;}
-    .llnker, .Subscribe {width: 100%; margin: 20px;}
-
-
-    .logo_footer img {bottom: 250px;}
-
-    .footer {height: unset;}
-
-
-
-    /* Events Page */
-
-    div.gallery {width: 42%;}
-
-
-
-}
-@media (min-width: 851px) and (max-width: 1000px) {
-
-  .clearboth {clear: both;}
-
-  .p{
-    font-size: 50px;
-  }
-
-  .div_down img{
-    height: 300px;
-  }
-
-  .div_down div{
-    width: 50%;
-    position: relative;
-  }
-
-
-  .img {margin-top: 30px;}
-
-
-  .TitleoldAlula p {height: 200px;}
-
-
-   /* Events Page */
-
-   div.gallery {width: 27%;}
-
-}
-/*Alula style*/
-@media (min-width: 1001px) and (max-width: 1400px) {
-
-
-
-  .p{
-    font-size: 60px;
-  }
-
-}
