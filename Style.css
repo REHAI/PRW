@@ -219,7 +219,7 @@ div.desc {
   width: 150px;
   height: 45px;
   left: 0;
-  
+
   }
   .image img{vertical-align:middle;}
   .image .text{
@@ -288,3 +288,7 @@ tr:nth-child(even) {
     width: 400px;}
 .nmm {align-items: center;}
 }
+
+@media screen {
+    body { font-size: 15px }
+  }

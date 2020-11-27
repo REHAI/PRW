@@ -72,4 +72,8 @@
 
   </body>
 </html>
+<<<<<<< HEAD
  <script language=javascript> window.alert('مرحبا بكم في صفحة السياحة '); </script>
+=======
+  <script language=javascript> window.alert('مرحبا بكم في السياحة '); </script>
+>>>>>>> 03760aa98b8c359e38efc3541d8ff980c9fd7b31

@@ -1,8 +1,13 @@
 <!DOCTYPE html>
   <html lang="ar" dir="rtl">
   <head>
+<<<<<<< HEAD
     <script src="begin.js"></script>
     <meta charset="utf-8">
+=======
+    <meta charset="utf-8">
+      <script src="begin.js"></script>
+>>>>>>> 03760aa98b8c359e38efc3541d8ff980c9fd7b31
     <link rel="stylesheet" href="Style.css">
 
     <title>اكتشف العُلا</title>
@@ -24,7 +29,11 @@
     <ul>
       <li><a href="Alula.php">الرئيسية</a></li>
         <li><a href="Home.html">أكتشف العلا</a></li>
+<<<<<<< HEAD
           <li><a href="events.html">الفعاليات والأنشطة </a></li>
+=======
+          <li><a href="Events.html">الفعاليات والأنشطة </a></li>
+>>>>>>> 03760aa98b8c359e38efc3541d8ff980c9fd7b31
             <li><a href="tourism.html">السياحة</a></li>
     </ul>
   </nav>
