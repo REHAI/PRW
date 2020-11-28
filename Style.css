@@ -266,13 +266,13 @@ div.desc {
     width :100%;
   }
   td, th {
-  border: 2px solid #dddddd;
+  border: 2px solid white;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: white;
 }
 /* tourism style */
 .nm{
