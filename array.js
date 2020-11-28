@@ -1,5 +1,5 @@
 var pausecontent=new Array()
-pausecontent[0]='<img border="0" src="">'
+pausecontent[0]='<img border="0" src=" ">'
 pausecontent[1]='<img border="0" src="bla.jpg">'
 pausecontent[2]='<img border="0" src="md.jpg">'
 pausecontent[3]='<img border="0" src="gr.jpg">'
