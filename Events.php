@@ -6,6 +6,8 @@
 
     <title>الفعاليات والانشطة</title>
     <link rel = "icon" href ="2icon.jpg" type = "image/x-icon">
+    <!-- Photo source application pinterest-->
+    <!--source content https://ar.wikipedia.org/wiki/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86_%D8%B4%D8%AA%D8%A7%D8%A1_%D8%B7%D9%86%D8%B7%D9%88%D8%B1%D8%A9#cite_note-1 -->
   </head>
   <body>
     <nav id="navbar" class="bg-dark">
@@ -14,14 +16,17 @@
     </div>
     <ul>
       <li><a href="Alula.php">الرئيسية</a></li>
-        <li><a href="Home.html">أكتشف العلا</a></li>
-          <li><a href="events.html">الفعاليات والأنشطة </a></li>
-            <li><a href="tourism.html">السياحة</a></li>
+        <li><a href="Home.php">أكتشف العلا</a></li>
+          <li><a href="events.php">الفعاليات والأنشطة </a></li>
+            <li><a href="tourism.php">السياحة</a></li>
     </ul>
   </nav>
     <img src="eevs.jpeg" alt="even" height="atuo" width=100%>
-
-
+    <div class="desc1">
+  <h2>مهرجان شتاء طنطورة (Winter at Tantora Festival)</h2>
+  <p>هو حدث سنوي في محافظة العلا يحتفل به الأهالي ويتبادلون التهاني بعودتهم للحقول وعودة موسم الزراعة ودخول الشتاء، وسمي طنطورة نسبة للساعة الشمسية التي تقع في الجزء الجنوبي الشرقي للقرية، حيث كان يعتمد عليها أهالي المنطقة في معرفة وقت دخول موسم الزراعة وتغير فصول السنة. يضم المهرجان أنشطة ترفيهية وثقافية ورياضية ويوفر زيارات ميدانية للمواقع الأثرية في المنطقة، حيث شملت الفعاليات 13 موقعًا أثريًا وثقافيًا، إضافة لعروض مسرحية موسيقية ضمها مسرح مرايا بالمدينة.</p>
+  <h2>أحداث المهرحان</h2>
+</div>
 <div class="gallery">
    <a target="_blank" href="https://youtu.be/IgUB-PnE5C4">
     <img src="karo.jpg" alt="karol" width="600" height="400"></a>
@@ -96,3 +101,4 @@
 
 </body>
 </html>
+  <script language=javascript> window.alert('مرحبا بكم في الفعاليات والانشطة '); </script>

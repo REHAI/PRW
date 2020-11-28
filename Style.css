@@ -1,4 +1,11 @@
-
+div.desc1{
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  background-color: #333;
+}
 div.gallery {
   margin: 25px;
   border: 3px solid #777 ;
@@ -218,7 +225,8 @@ div.desc {
     position: absolute;
   width: 150px;
   height: 45px;
-  left: 100px;
+  left: 0;
+
   }
   .image img{vertical-align:middle;}
   .image .text{
@@ -258,13 +266,13 @@ div.desc {
     width :100%;
   }
   td, th {
-  border: 2px solid #dddddd;
+  border: 2px solid white;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: white;
 }
 /* tourism style */
 .nm{

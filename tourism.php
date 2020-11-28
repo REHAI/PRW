@@ -21,13 +21,14 @@
     </div>
     <ul>
       <li><a href="Alula.php">الرئيسية</a></li>
-        <li><a href="Home.html">أكتشف العلا</a></li>
-          <li><a href="events.html">الفعاليات والأنشطة </a></li>
-            <li><a href="tourism.html">السياحة</a></li>
+        <li><a href="Home.php">أكتشف العلا</a></li>
+          <li><a href="events.php">الفعاليات والأنشطة </a></li>
+            <li><a href="tourism.php">السياحة</a></li>
     </ul>
   </nav>
-
-      <font face="verdana" color="#fff"> <h1  ALIGN="CENTER"> <u>السياحة في العُلا <u></h1>
+<!--source content https://www.travellwd.com/tourism-in-al-ula-saudi-arabia/ -->
+      <font face="verdana" color="#fff">
+      <h1  ALIGN="CENTER"> <u>السياحة في العُلا <u></h1>
       <h3 ALIGN="CENTER" >اهم الاماكن السياحية في العُلا </h3> </font>
       <br><br><br>
 
@@ -72,3 +73,4 @@
 
   </body>
 </html>
+  <script language=javascript> window.alert('مرحبا بكم في السياحة '); </script>
