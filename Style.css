@@ -2,9 +2,9 @@ div.desc1{
   padding: 15px;
   text-align: center;
   font-weight: bold;
-  color: black;
+  color: white;
   font-size: 20px;
-  background-color: silver;
+  background-color: #333;
 }
 div.gallery {
   margin: 25px;
