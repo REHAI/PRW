@@ -1,15 +1,15 @@
 
-div.Events {
+div.gallery {
   margin: 25px;
   border: 3px solid #777 ;
   float: left;
   width: 200px;
   background-color: white;
 }
-div.Events:hover {
+div.gallery:hover {
   border: 3px solid #777;
 }
-div.Events img {
+div.gallery img {
   width: 196px;
   height: 196px;
 }
