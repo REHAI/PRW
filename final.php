@@ -1,6 +1,6 @@
 <?php
-// إستقبال البيانات القادمة من الحقول في صفحة myform.php
-
+// إستقبال البيانات القادمة من الحقول في صفحة Alula.php
+//source https://www.geekgenes.com/2018/02/php-2/
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $email = $_POST["uremail"];
 }
