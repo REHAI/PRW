@@ -37,27 +37,23 @@ div.desc {
     box-sizing: border-box;
   }
 
-  /* Style the body */
-  body {
-    margin: 0;
-      background-image:url('p2.png');
-  }
+  /* Alula style*/
 
-  /* Header*/
-  a{
-  text-decoration: none;
+/*Header navbar*/
+a{
+text-decoration: none;
 }
 .bg-dark{
-  background-color: #333;
-  color: white;
+background-color: #333;
+color: white;
 }
-/* navbar*/
+
 #navbar{
   display: flex;
   align-items:center;
   padding: 1rem;
-
 }
+
 #navbar .logo img{
   width: 80px;
 }
@@ -74,24 +70,41 @@ div.desc {
    color: black;
        border-radius: 5px;
 }
+ /*Content*/
+ body {
+   margin: 0;
+     background-image:url('p2.png');
+ }
+.image {
+  position:relative;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+  .image img{vertical-align:middle;}
+
+  .image .text{
+    position: absolute;
+    bottom: 0px;
+    top: 280px;
+    margin: 0 auto;
+  }
+
+.p{
+  font-size: 60px;
+font-family:'Droid Arabic Kufi';
+text-shadow: 2px 2px 4px #000000;
+font-weight: bolder;
+color: white;
+padding-right:150px;
+text-align: right;
+}
+
 .img {
   text-align:left;
     padding: 20px;
     padding-left: 0px;
-
   }
-
-  .TitleoldAlula {
-    text-align: right;
-    position: absolute;
-  top: 700px;
-     width: 510px;
-     height: 450px;
-     border: 1px solid tan;
-    padding: 20px;
-
-  }
-
 
   .TitleoldAlula ,.TitleMountIkma ,.TitleDiwan{
     font-size: 27px;
@@ -99,8 +112,19 @@ div.desc {
   font-weight:normal;
   text-shadow:none;
   color:#330000;
-
   }
+
+    .TitleoldAlula {
+      text-align: right;
+      position: absolute;
+    top: 700px;
+       width: 510px;
+       height: 450px;
+       border: 1px solid tan;
+      padding: 20px;
+
+    }
+
   .textimg{
     text-align:right;
     display: flex;
@@ -174,82 +198,61 @@ div.desc {
     font-family: 'Noto Kufi Arabic';
     color: white;
   }
-  .llnker{
-    text-align:right;
-  padding-right: 20px;
-  font-size: 22px;
-  font-family:'Noto Kufi Arabic';
 
+    /* Footer */
+    .footer {
+       clear:both;
+       width:100%;
+       position:absolute;
+       bottom:0;
+       height:250px;
+       background: #ddd;
+       right: 0;
 
-  }
-  .llnker a{
-  color: white;
-  text-decoration: none;
-  text-shadow: 1px 1px 2px white;
-  }
-
-  /* Footer */
-  .footer {
-     clear:both;
-     width:100%;
-     position:absolute;
-     bottom:0;
-     height:250px;
-     background: #ddd;
-     right: 0;
-
-  }
-
-  .Subscribe{
-  position: absolute;
-  right: 350px;
-  top: 0px;
-  font-size: 22px;
-  font-family:'Noto Kufi Arabic';
-  }
-  .Subs{
-    position: absolute;
-  width: 250px;
-  height: 45px;
-    border: 2px solid black;
-    font-size: 10px;
+    }
+    .llnker{
+      text-align:right;
+    padding-right: 20px;
+    font-size: 22px;
     font-family:'Noto Kufi Arabic';
-    display: flex;
-  }
-  .submit{
-    border: 2px solid black;
-    background-color:#ddd;
-    font-size: 17px;
-    font-family: 'Noto Kufi Arabic';
+
+
+    }
+    .llnker a{
     color: white;
-    position: absolute;
-  width: 150px;
-  height: 45px;
-  left: 0;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px white;
+    }
 
-  }
-  .image img{vertical-align:middle;}
-  .image .text{
+    .Subscribe{
     position: absolute;
-    bottom: 0px;
-    top: 280px;
-    margin: 0 auto;
-  }
-  .image {
-    position:relative;
-    max-width: 1300px;
-    margin: 0 auto;
-  }
+    right: 350px;
+    top: 0px;
+    font-size: 22px;
+    font-family:'Noto Kufi Arabic';
+    }
+    .Subs{
+      position: absolute;
+    width: 250px;
+    height: 45px;
+      border: 2px solid black;
+      font-size: 10px;
+      font-family:'Noto Kufi Arabic';
+      display: flex;
+    }
+    .submit{
+      border: 2px solid black;
+      background-color:#ddd;
+      font-size: 17px;
+      font-family: 'Noto Kufi Arabic';
+      color: white;
+      position: absolute;
+    width: 150px;
+    height: 45px;
+    left: 0;
 
-  .p{
-    font-size: 60px;
-  font-family:'Droid Arabic Kufi';
-  text-shadow: 2px 2px 4px #000000;
-  font-weight: bolder;
-  color: white;
-  padding-right:150px;
-  text-align: right;
-  }
+    }
+
   /* home style*/
   .nmm{
     color: gray ;
@@ -262,7 +265,7 @@ div.desc {
   table {
     font family: arial, sons-serif;
     border-collapse : separate;
-    font-weight : blod ;
+    font-weight : bold ;
     width :100%;
   }
   td, th {
@@ -274,6 +277,8 @@ div.desc {
 tr:nth-child(even) {
   background-color: white;
 }
+
+
 /* tourism style */
 .nm{
   color: white ;
