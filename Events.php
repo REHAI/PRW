@@ -80,7 +80,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery -->
 <div class="gallery">
 <a target="_blank" href="https://youtu.be/KEVZ7K2Qrs0">
 <img src="eb.jpeg" alt="andera" width="600" height="400"></a>
-<div class="tex">مهرجان المناطيد في مهرجان شتاء طنطورة</div>
+<div class="desc">مهرجان المناطيد في مهرجان شتاء طنطورة</div>
 </div>
 
 <div class="gallery">
