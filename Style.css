@@ -1,4 +1,11 @@
-
+div.desc1{
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  background-color: silver;
+}
 div.gallery {
   margin: 25px;
   border: 3px solid #777 ;
