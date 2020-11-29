@@ -107,7 +107,9 @@
     <h3 style="color:#FFCC00;font-weight:bold;font-size:25px;text-shadow: 2px 2px 2px #000000;">الروابط السريعة</h3>
     <a   href="https://youtu.be/KEVZ7K2Qrs0"> مناطيد العلا</a>
     <a   href="https://youtu.be/IgUB-PnE5C4"><br>حفل كارول سماحة</a>
-    <a   href="https://youtu.be/g3YbFn2ziqs"><br>الموسيقار عمر خيرت </a></div>
+    <a   href="https://youtu.be/g3YbFn2ziqs"><br>الموسيقار عمر خيرت </a>
+  <a href="Vis.php"  ><br> عدد الزوار </a>
+  </div>
 
 <div class="Subscribe">
     <h3 style="color:#FFCC00;font-weight:bold;font-size:25px;text-shadow: 2px 2px 2px  #000000;" > تواصل معنا</h3>
