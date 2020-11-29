@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <script language=javascript> window.alert('جولة للعلا '); </script>
 <!-- Header -->
 <nav id="navbar" class="bg-dark">
   <div class="logo">
@@ -17,9 +18,9 @@
   </div>
   <ul>
     <li><a href="Alula.php">الرئيسية</a></li>
-      <li><a href="Home.php">أكتشف العلا</a></li>
-        <li><a href="events.php">الفعاليات والأنشطة </a></li>
-          <li><a href="tourism.php">السياحة</a></li>
+    <li><a href="Home.html">أكتشف العلا</a></li>
+      <li><a href="events.html">الفعاليات والأنشطة </a></li>
+        <li><a href="tourism.html">السياحة</a></li>
   </ul>
 </nav>
 
@@ -111,14 +112,13 @@
   <a href="Vis.php"  ><br> عدد الزوار </a>
   </div>
 
-<div class="Subscribe">
-    <h3 style="color:#FFCC00;font-weight:bold;font-size:25px;text-shadow: 2px 2px 2px  #000000;" > تواصل معنا</h3>
-    <h5>اشترك للحصول على أحدث أخبار العلا من العروض والفعاليات</h5>
-    <form action="final.php" method="post">
-    <input  class="Subs"   type="email" name="uremail"  placeholder="البريد الإلكتروني" required>
-    <input class="submit" type="submit" value="اشترك"><br>
-</div>
-</div>
+    <div class="Subscribe">
+        <h3 style="color:#FFCC00;font-weight:bold;font-size:25px;text-shadow: 2px 2px 2px  #000000;" > تواصل معنا</h3>
+        <h5>اشترك للحصول على أحدث أخبار العلا من العروض والفعاليات</h5>
+        <form action="final.php" method="post">
+        <input  class="Subs"   type="text" name="urname"  placeholder="الأسـم" required>
+        <input class="submit" type="submit" value="اشترك"><br>
+    </div>
+    </div>
 </body>
 </html>
-  <script language=javascript> window.alert('جولة للعلا '); </script>
