@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <script language=javascript> window.alert('جولة للعلا '); </script>
 <!-- Header -->
 <nav id="navbar" class="bg-dark">
   <div class="logo">
@@ -119,4 +120,3 @@
 </div>
 </body>
 </html>
-  <script language=javascript> window.alert('جولة للعلا '); </script>

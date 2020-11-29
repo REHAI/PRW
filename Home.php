@@ -16,6 +16,7 @@
 <link rel = "icon" href ="2icon.jpg" type = "image/x-icon">
 </head>
 <body>
+  <script language=javascript> window.alert('مرحبا بكم في اكتشاف العُلا '); </script>
   <nav id="navbar" class="bg-dark">
     <div class="logo">
       <img src="alu.png" alt="Alula">
@@ -98,4 +99,3 @@
 
   </body>
   </html>
-  <script language=javascript> window.alert('مرحبا بكم في اكتشاف العُلا '); </script>

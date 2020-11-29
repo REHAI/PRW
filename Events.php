@@ -10,6 +10,7 @@
     <!--source content https://ar.wikipedia.org/wiki/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86_%D8%B4%D8%AA%D8%A7%D8%A1_%D8%B7%D9%86%D8%B7%D9%88%D8%B1%D8%A9#cite_note-1 -->
   </head>
   <body>
+    <script language=javascript> window.alert('مرحبا بكم في الفعاليات والانشطة '); </script>
     <nav id="navbar" class="bg-dark">
     <div class="logo">
       <img src="alu.png" alt="Alula">
@@ -101,4 +102,3 @@
 
 </body>
 </html>
-  <script language=javascript> window.alert('مرحبا بكم في الفعاليات والانشطة '); </script>
