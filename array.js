@@ -1,3 +1,4 @@
+// source code https://www.youtube.com/c/NourHomsi
 var pausecontent=new Array()
 pausecontent[0]='<img border="0" src="">'
 pausecontent[1]='<img border="0" src="bla.jpg">'
