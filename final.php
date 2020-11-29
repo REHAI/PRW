@@ -2,7 +2,7 @@
 // إستقبال البيانات القادمة من الحقول في صفحة Alula.php
 //source https://www.geekgenes.com/2018/02/php-2/
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-$name = $_POST["urname"];
+$email = $_POST["uremail"];
 }
 
 // معلومات الإتصال بقاعدة البيانات
@@ -19,8 +19,8 @@ if (!$conn) {
 die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO visitors (urname)
-VALUES ('$name')";
+$sql = "INSERT INTO mytable (uremail)
+VALUES ('$email')";
 
 if (mysqli_query($conn, $sql)) {
 echo "تم الأشتراك";

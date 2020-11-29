@@ -5,10 +5,10 @@ if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
 
-$sql = "SELECT * FROM visitors";
+$sql = "SELECT * FROM mytable";
 if($result = mysqli_query($link, $sql)){
     if(mysqli_num_rows($result) > 0){
-                echo "you are visitor no ";
+                echo "You are the subscriber number ";
         while($row = mysqli_fetch_array($result)){
 
                 echo   $row['ID'] ;

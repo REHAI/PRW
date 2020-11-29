@@ -109,15 +109,15 @@
     <a   href="https://youtu.be/KEVZ7K2Qrs0"> مناطيد العلا</a>
     <a   href="https://youtu.be/IgUB-PnE5C4"><br>حفل كارول سماحة</a>
     <a   href="https://youtu.be/g3YbFn2ziqs"><br>الموسيقار عمر خيرت </a>
-  <a href="Vis.php"  ><br> عدد الزوار </a>
+  <a href="Vis.php"  ><br>عدد الاشتراكات </a>
   </div>
-  
+
 
     <div class="Subscribe">
         <h3 style="color:#FFCC00;font-weight:bold;font-size:25px;text-shadow: 2px 2px 2px  #000000;" > تواصل معنا</h3>
         <h5>اشترك للحصول على أحدث أخبار العلا من العروض والفعاليات</h5>
         <form action="final.php" method="post">
-        <input  class="Subs"   type="text" name="urname"  placeholder="الأسـم" required>
+        <input  class="Subs"   type="email" name="uremail"  placeholder="البريد الألكتروني" required>
         <input class="submit" type="submit" value="اشترك"><br>
     </div>
     </div>
