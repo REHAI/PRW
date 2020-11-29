@@ -284,7 +284,6 @@ tr:nth-child(even) {
   width: 400px;
 }
 @media screen and (max-width: 600px) {
-.navbar {flex-direction: column;}
 .rectangle {align-items: center;}
 .nm {align-items: center;}
 }
