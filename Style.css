@@ -1,63 +1,24 @@
-div.desc1{
-  padding: 15px;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  font-size: 20px;
-  background-color: #333;
-}
-div.gallery {
-  margin: 25px;
-  border: 3px solid #777 ;
-  float: left;
-  width: 200px;
-  background-color: white;
-}
-div.gallery:hover {
-  border: 3px solid #777;
-}
-div.gallery img {
-  width: 196px;
-  height: 196px;
-}
-div.desc {
-  padding: 15px;
-  text-align: center;
-  font-weight: bold;
-  font-style:italic;
-  color: black;
-}body {
-    background-image: url("white.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-
   * {
     box-sizing: border-box;
   }
 
-  /* Style the body */
-  body {
-    margin: 0;
-      background-image:url('p2.png');
-  }
+  /* Alula style*/
 
-  /* Header*/
-  a{
-  text-decoration: none;
+/*Header navbar*/
+a{
+text-decoration: none;
 }
 .bg-dark{
-  background-color: #333;
-  color: white;
+background-color: #333;
+color: white;
 }
-/* navbar*/
+
 #navbar{
   display: flex;
   align-items:center;
   padding: 1rem;
-
 }
+
 #navbar .logo img{
   width: 80px;
 }
@@ -74,24 +35,41 @@ div.desc {
    color: black;
        border-radius: 5px;
 }
+ /*Content*/
+ body {
+   margin: 0;
+     background-image:url('p2.png');
+ }
+.image {
+  position:relative;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+  .image img{vertical-align:middle;}
+
+  .image .text{
+    position: absolute;
+    bottom: 0px;
+    top: 280px;
+    margin: 0 auto;
+  }
+
+.p{
+  font-size: 60px;
+font-family:'Droid Arabic Kufi';
+text-shadow: 2px 2px 4px #000000;
+font-weight: bolder;
+color: white;
+padding-right:150px;
+text-align: right;
+}
+
 .img {
   text-align:left;
     padding: 20px;
     padding-left: 0px;
-
   }
-
-  .TitleoldAlula {
-    text-align: right;
-    position: absolute;
-  top: 700px;
-     width: 510px;
-     height: 450px;
-     border: 1px solid tan;
-    padding: 20px;
-
-  }
-
 
   .TitleoldAlula ,.TitleMountIkma ,.TitleDiwan{
     font-size: 27px;
@@ -99,8 +77,19 @@ div.desc {
   font-weight:normal;
   text-shadow:none;
   color:#330000;
-
   }
+
+    .TitleoldAlula {
+      text-align: right;
+      position: absolute;
+    top: 700px;
+       width: 510px;
+       height: 450px;
+       border: 1px solid tan;
+      padding: 20px;
+
+    }
+
   .textimg{
     text-align:right;
     display: flex;
@@ -174,82 +163,61 @@ div.desc {
     font-family: 'Noto Kufi Arabic';
     color: white;
   }
-  .llnker{
-    text-align:right;
-  padding-right: 20px;
-  font-size: 22px;
-  font-family:'Noto Kufi Arabic';
 
+    /* Footer */
+    .footer {
+       clear:both;
+       width:100%;
+       position:absolute;
+       bottom:0;
+       height:250px;
+       background: #ddd;
+       right: 0;
 
-  }
-  .llnker a{
-  color: white;
-  text-decoration: none;
-  text-shadow: 1px 1px 2px white;
-  }
-
-  /* Footer */
-  .footer {
-     clear:both;
-     width:100%;
-     position:absolute;
-     bottom:0;
-     height:250px;
-     background: #ddd;
-     right: 0;
-
-  }
-
-  .Subscribe{
-  position: absolute;
-  right: 350px;
-  top: 0px;
-  font-size: 22px;
-  font-family:'Noto Kufi Arabic';
-  }
-  .Subs{
-    position: absolute;
-  width: 250px;
-  height: 45px;
-    border: 2px solid black;
-    font-size: 10px;
+    }
+    .llnker{
+      text-align:right;
+    padding-right: 20px;
+    font-size: 22px;
     font-family:'Noto Kufi Arabic';
-    display: flex;
-  }
-  .submit{
-    border: 2px solid black;
-    background-color:#ddd;
-    font-size: 17px;
-    font-family: 'Noto Kufi Arabic';
-    color: white;
-    position: absolute;
-  width: 150px;
-  height: 45px;
-  left: 0;
 
-  }
-  .image img{vertical-align:middle;}
-  .image .text{
-    position: absolute;
-    bottom: 0px;
-    top: 280px;
-    margin: 0 auto;
-  }
-  .image {
-    position:relative;
-    max-width: 1300px;
-    margin: 0 auto;
-  }
 
-  .p{
-    font-size: 60px;
-  font-family:'Droid Arabic Kufi';
-  text-shadow: 2px 2px 4px #000000;
-  font-weight: bolder;
-  color: white;
-  padding-right:150px;
-  text-align: right;
-  }
+    }
+    .llnker a{
+    color: black;
+    text-decoration: none;
+
+    }
+
+    .Subscribe{
+    position: absolute;
+    right: 350px;
+    top: 0px;
+    font-size: 22px;
+    font-family:'Noto Kufi Arabic';
+    }
+    .Subs{
+      position: absolute;
+    width: 250px;
+    height: 45px;
+      border: 2px solid black;
+      font-size: 10px;
+      font-family:'Noto Kufi Arabic';
+      display: flex;
+    }
+    .submit{
+      border: 2px solid black;
+      background-color:#ddd;
+      font-size: 17px;
+      font-family: 'Noto Kufi Arabic';
+      color: white;
+      position: absolute;
+    width: 150px;
+    height: 45px;
+    left: 0;
+
+    }
+
   /* home style*/
   .nmm{
     color: gray ;
@@ -260,9 +228,9 @@ div.desc {
     width: 800px;
   }
   table {
-    font family: arial, sons-serif;
+    font family: arial, sans-serif;
     border-collapse : separate;
-    font-weight : blod ;
+    font-weight : bold ;
     width :100%;
   }
   td, th {
@@ -274,6 +242,8 @@ div.desc {
 tr:nth-child(even) {
   background-color: white;
 }
+
+
 /* tourism style */
 .nm{
   color: white ;
@@ -284,6 +254,7 @@ tr:nth-child(even) {
   width: 400px;
 }
 @media screen and (max-width: 600px) {
+.navbar {flex-direction: column;}
 .rectangle {align-items: center;}
 .nm {align-items: center;}
 }
@@ -294,3 +265,39 @@ tr:nth-child(even) {
     width: 400px;}
 .nmm {align-items: center;}
 }
+
+ /* Event style */
+div.desc1{
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  background-color: #333;
+}
+div.gallery {
+  margin: 25px;
+  border: 3px solid #777 ;
+  float: left;
+  width: 200px;
+  background-color: white;
+}
+div.gallery:hover {
+  border: 3px solid #777;
+}
+div.gallery img {
+  width: 196px;
+  height: 196px;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-style:italic;
+  color: black;
+}body {
+    background-image: url("white.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
