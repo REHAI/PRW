@@ -86,15 +86,15 @@
 
 
 <div><img src="st.jpg" alt="استكشف العلا" height="400" width="500" style=" position: absolute; right:350px">
-<a class="ExploreAlula" href="Home.php">أكتشف العلا</a></div>
+<a class="ExploreAlula" href="Home.html">أكتشف العلا</a></div>
 
 
 <div><img src="Sh.jpg" alt=" السياحة" height="400" width="500" style=" position:absolute;top:4300px;right:80px">
- <a  class="tourism" href="tourism.php">السياحة</a></div>
+ <a  class="tourism" href="tourism.html">السياحة</a></div>
 
 <div><img src="cxx.png" alt=" الحفلات" height="200" width="500" style=" position: absolute; top:4300px; right:650px">
   <img src="ll.jpg" alt=" الحفلات" height="200" width="500" style=" position: absolute; top:4500px;right:650px">
-<a class="Parties" href="events.php">الفعاليات والأنشطة </a> </div>
+<a class="Parties" href="events.html">الفعاليات والأنشطة </a> </div>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
